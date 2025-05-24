@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    background-color: #bebdbd;
+    font-family: "Open Sans";
+    color: #000000;
+    font-weight: 300;
+  }
+  
+  header {
+    background-color: #8993a0;
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    z-index: 10000;
+  }
+  
+  #header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #logo {
+    margin-top: 3px;
+    float: left;
+    width: 90px;
+    height: 90px;
+    background: url(/mareco/assets/logo.jpg)
+      no-repeat center;
+  }
+  
+  /*mobile menu icon*/
+  
+  #menu-icon {
+    display: hidden;
+    width: 50px;
+    height: 50px;
+    background: url(https://w7.pngwing.com/pngs/436/707/png-transparent-hamburger-button-computer-icons-menu-menu-food-text-rectangle-thumbnail.png)
+      center no-repeat;
+  }
+  
+  a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+  }
+  
+  /*navigation*/
+  
+  nav {
+    float: right;
+    padding: 20px 25px 0 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    font-size: 140%;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    font-weight: 300;
+    margin: ;
+  }
+  
+  nav ul li a {
+    color: #304d60;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #3b7b92;
+  }
+  
+  /*text section*/
+  
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 3% 0 3% 0;
+  }
+  
+  .t1 {
+    font-size: 70px;
+    color:#8993a0;
+    -webkit-text-stroke: 2px #304d60;
+    ;
+  }
+  
+  .t2 {
+    font-size: 40px;
+    -webkit-text-stroke: 2px #304d60;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 3% 0 3% 0;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  p {
+    padding: 2%;
+    text-align: justify;
+    font-size: 17px;
+    word-spacing: 2px;
+    color: #000000;
+  }
+  
+  .hover-a {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    color: #3b7b92;
+  }
+  
+  .hover-a:hover {
+    background-color: #3b7b92;
+  }
+  
+  #white {
+    background-color: white;
+    color: black;
+  }
+  
+  #red {
+    background-color: red;
+    color: white;
+  }
+  
+  #black {
+    background-color: black;
+    color: red;
+  }
+  
+  span {
+    padding: 0 2px 0 2px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #banner-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .about-intro {
+    padding-top: 95px;
+  }
+  
+  .one-half {
+    width: 44%;
+    float: left;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+  
+  .one-third {
+    width: 28%;
+    float: left;
+    margin: 50px 0 3% 4%;
+    text-align: center;
+  }
+  
+  #profile {
+    border: 3px solid #304d60;
+    border-radius: 50%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    filter: grayscale(50%);
+    margin-top: -15px;
+  }
+  
+  #profile:hover {
+    -moz-transform: scale(0.985);
+    -webkit-transform: scale(0.985);
+    transform: scale(0.985);
+    filter: grayscale(0);
+  }
+  
+  /*parallax sections */
+  .parallax-1 {
+    background: url(https://cloudcdn.nz/_orakeimarine_/assets/uploads/2022/05/open-days-may-22-5.jpg?_gl=1*tjkrud*_ga*NDI2NzA0MDgzLjE3NDgwNTk3NjY.*_ga_6K17CMPTRX*czE3NDgwNTk3NjYkbzEkZzAkdDE3NDgwNTk3NjYkajYwJGwwJGgwJGR6SFZ0MzBvU19rNFA4M2R1MXFwcmhCUWZPT0x0WlFTVnN3)
+      no-repeat fixed 100%;
+    background-position: center;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    max-width: 1300px;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.3);
+  }
+  
+  .parallax-inner {
+    padding-top: 90px;
+    padding-bottom: 225px;
+  }
+  
+  .fixer {
+    clear: both;
+  }
+  
+  /*services*/
+  
+  .services-img {
+    border: 2px solid #304d60;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius: 10%;
+    margin-bottom: 25px;
+    width: 350px;
+    height: 220px;
+  }
+  
+  .services-img:hover {
+    -moz-transform: scale(1.015);
+    -webkit-transform: scale(1.0015);
+    transform: scale(1.015);
+  }
+  
+  /*contact form */
+  
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    color: #fdfdfd;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-webkit-input-placeholder,
+  textarea:focus::-webkit-input-placeholder {
+    color: #fdfdfd;
+  }
+  
+  input::-moz-placeholder,
+  textarea::-moz-placeholder {
+    color: #fdfdfd;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-moz-placeholder,
+  textarea:focus::-moz-placeholder {
+    color: #fdfdfd;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #fdfdfd;
+    font-size: 0.875em;
+  }
+  
+  input:focus::placeholder,
+  textarea::focus:placeholder {
+    color: #fdfdfd;
+  }
+  
+  input::-ms-placeholder,
+  textarea::-ms-placeholder {
+    color: #fdfdfd;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-ms-placeholder,
+  textarea:focus::-ms-placeholder {
+    color: #fdfdfd;
+  }
+  
+  /* on hover placeholder */
+  
+  input:hover::-webkit-input-placeholder,
+  textarea:hover::-webkit-input-placeholder {
+    color: #ff2e2e;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-webkit-input-placeholder,
+  textarea:hover:focus::-webkit-input-placeholder {
+    color: #ff2e2e;
+  }
+  
+  input:hover::-moz-placeholder,
+  textarea:hover::-moz-placeholder {
+    color: #ff2e2e;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-moz-placeholder,
+  textarea:hover:focus::-moz-placeholder {
+    color: #ff2e2e;
+  }
+  
+  input:hover::placeholder,
+  textarea:hover::placeholder {
+    color: #ff2e2e;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::placeholder,
+  textarea:hover:focus::placeholder {
+    color: #ff2e2e;
+  }
+  
+  input:hover::placeholder,
+  textarea:hover::placeholder {
+    color: #ff2e2e;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-ms-placeholder,
+  textarea:hover::focus:-ms-placeholder {
+    color: #ff2e2e;
+  }
+  
+  #form {
+    position: relative;
+    width: 100%;
+    max-width: 472px;
+  }
+  
+  input {
+    font-family: "Open Sans";
+    color: #ff2e2e;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+  
+    max-width: 470px;
+    width: 100%;
+    height: 50px;
+  
+    background: transparent;
+    outline: none;
+  
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+  
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  textarea {
+    max-width: 470px;
+    width: 100%;
+    height: 110px;
+    max-height: 110px;
+    padding-top: 15px;
+  
+    background: transparent;
+    outline: none;
+  
+    font-family: "Open Sans";
+    color: #ff2e2e;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+  
+    border: solid 1px #b3aca7;
+  
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  #submit {
+    max-width: 472px;
+    width: 100.5%;
+  
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+  
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fdfdfd;
+  
+    outline: none;
+    cursor: pointer;
+  
+    border: solid 1px #b3aca7;
+    border-top: none;
+  }
+  
+  #submit:hover {
+    color: #ff2e2e;
+  }
+  
+  /*social */
+  
+  .social {
+    clear: both;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .social ul li {
+    display: inline-block;
+    margin: 20px 15px 0 15px;
+  }
+  
+  .social ul li a {
+    text-decoration: none;
+    color: #ff2e2e;
+  }
+  
+  .social ul li i:hover {
+    color: #e0dbdb;
+  }
+  
+  /*media queries */
+  
+  @media screen and (max-width: 768px) {
+    #logo {
+      margin: 5px 0 0 10px;
+    }
+  
+    #menu-icon {
+      display: inline-block;
+      margin-right: 5px;
+    }
+  
+    nav ul,
+    nav:active ul {
+      display: none;
+      z-index: 10000;
+      position: absolute;
+      padding: 20px 20px 20px 0px;
+      background: #191919;
+      right: 0.1px;
+      top: 94px;
+      text-align: center;
+    }
+    nav:hover ul {
+      display: block;
+    }
+    nav li {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .one-third {
+      width: 100%;
+      margin: 5% 0%;
+    }
+  
+    .one-half {
+      width: 100%;
+      margin: 5% 0%;
+    }
+  
+    h1 {
+      margin-bottom: 25px;
+    }
+  
+    #form {
+      max-width: none;
+    }
+  
+    p {
+      text-align: center;
+    }
+  
+    img {
+      max-width: 85%;
+    }
+  }
+  
+
+  hr {
+    border: 0;
+    margin: 1.35em auto;
+    max-width: 100%;
+    background-position: 50%;
+    box-sizing: border-box;
+  }
+  
+  .accessory {
+    height: 6px;
+    background-image: radial-gradient(
+      closest-side,
+      hsla(0, 0%, 50%, 1.0),
+      hsla(0, 0%, 50%, 0) 100%);
+    position: relative;
+  }
+  .accessory:after {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    display:block;
+    background-color: hsl(0, 0%, 75%);
+    height: 12px;
+    width:  12px;
+    transform: rotate(45deg);
+    margin-top:  -10px;
+    margin-left: -10px;
+    border-radius: 4px 0;
+    border: 4px solid hsla(0, 0%, 100%, 0.35);
+    background-clip: padding-box;
+    box-shadow: -10px 10px 0 hsla(0, 0%, 100%, 0.15), 10px -10px 0 hsla(0, 0%, 100%, 0.15);
+  }
